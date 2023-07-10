@@ -14,6 +14,8 @@ function pluck(array, propiedad) {
   // Pista: es una buena oportunidad para usar map.
 
   // Tu código acá:
+  return array.map(function(elem){return elem[propiedad]})   // si colocamos elem.propiedad pregunta literalmente por el objeto que tiene una propiedad llamada propiedad (pregunta a cada objeto si tiene una propiedad llamada propiedad)
+   // por ello colocamos elem[propiedad] para referirnos a la propiedad con un nombre cualquiera y acceder a esos valores (pregunta por la variable cuyo nombre varia)
 
 }
 
